@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spartan psc</title>
+</head>
+<body>
+<div class="quiz-container">
+    <div id="quiz">
+        <div id="question-number">Question 1 of 4</div>
+        <div id="question">Question Text</div>
+        <div class="options">
+           <button class="option">Option 1</button>
+           <button class="option">Option 2</button>
+           <button class="option">Option 3</button>
+           <button class="option">Option 4</button> 
+        </div>
+
+        <div class="footer">
+          <span id="timer">Time Left : 30s</span>
+          <button  id="next-btn" disabled>Next</button>
+           
+        </div>
+        <div id="result" class="hide">
+            <h2>Your Score:<span id="score"></span></h2>
+
+        </div>
+    </div>
+    <button onclick="location.reload()">Restart Quiz</button>
+
+</div>
+
+<script src="app.js"></script>    
+</body>
+</html>
